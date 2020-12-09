@@ -14,7 +14,7 @@ body {
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    /* background-color overwrites background-color chosen for selector body */
+    /* background-color overwrites background-color chosen for body */
     background-color: #2a607c;
     color: #ffffff;
 }
@@ -40,14 +40,12 @@ body {
 
 }
 
-/*  uordered list elements */
-/* DELETE - .header div ul { */
+/*  unordered list elements */
 .header ul {
     list-style-type: none;
 }
 
 /* individual list elements */
-/* DELETE - .header div ul li {   */
 .header li {
     display: inline-block; 
     margin-left: 25px;
@@ -70,30 +68,18 @@ body {
 }
 /* END of styling for Hero section */
 
-/* START of styling for main content and sidebar */
+/* used styling for main content and sidebar */
 p {
     font-size: 16px;
 }
 
-/* floats image to left */
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-/* floats image to right */
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* START of styling for main content-sections */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* START of styling for main content-sections */
 .content-section {
     margin-bottom: 20px;
     padding: 50px;
@@ -106,6 +92,18 @@ p {
 .content-section h2 {
     margin-bottom: 20px;
     font-size: 36px;
+}
+
+/* floats image to left */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* floats image to right */
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
 
 .content-section img {
@@ -143,10 +141,10 @@ p {
 /* END of styling for Benefits sidebar content */
 
 
-
+/* START of styling FOOTER section */
 .footer {
     padding: 30px;
-    clear: both;
+    clear: both; 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
@@ -154,3 +152,4 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+/* END of styling FOOTER section */
