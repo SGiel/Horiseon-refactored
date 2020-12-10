@@ -8,7 +8,7 @@ The CSS and HTML code both had descriptive comments added and links were tested 
 
 ## Usage 
 
-![Screenshot of Horiseon webpage](develop/assets/images/horiseon-screenshot.png)
+![Screenshot of Horiseon webpage](assets/images/horiseon-screenshot.png)
 
 
 ## Link
